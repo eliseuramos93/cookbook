@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 feature 'GET api/v1/recipes/' do
-  scenario 'lista todas as receitas' do
+  it 'lista todas as receitas' do
     # arrange
     recipe_type = create(:recipe_type, name: 'Sobremesa')
     create(:recipe, title: 'Manjar', cook_time: 60,

@@ -1,0 +1,13 @@
+---
+pt-BR:
+  activerecord:
+    models: 
+      one: Lista de receitas
+      other: Listas de receitas
+    attributes:
+      recipe_list:
+        name: Nome
+  recipe_lists:
+    create:
+      success:  'Lista de receita cadastrada com sucesso'
+      error:  'Não foi possível cadastrar lista de receita'
