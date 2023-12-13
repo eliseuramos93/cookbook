@@ -9,5 +9,7 @@
     <p class="strong"> Ingredientes: <%= @recipe.ingredients %> </p>
     <h4>Forma de preparo</h4>
     <p><%= @recipe.instructions%></p>
+
+    <p><%= link_to 'Adicionar à uma Lista de Receitas', new_recipe_favorite_recipe_path(@recipe) %></p>
   </div>
 </div>

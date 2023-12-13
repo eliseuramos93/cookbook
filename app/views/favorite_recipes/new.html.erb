@@ -1,0 +1,12 @@
+<div class="mt-4 mb-2">
+  <h2 class="">Adicionar receita à lista de receitas</h2>
+  <div class="card border-0 shadow-lg">
+    <div class="card-body">
+      <%= form_with model: @favorite_recipe do |f| %>
+        <%= f.label :recipe_list_id, class: 'form-label' %>
+        <%= f.collection_select :recipe_list_id, @recipe_lists, :id, :name %>
+        <%= f.submit 'Adicionar Receita', class:'btn btn-primary' %>
+      <% end %>
+    </div>
+  </div>
+</div>

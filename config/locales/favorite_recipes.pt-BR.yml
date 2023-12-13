@@ -1,0 +1,13 @@
+---
+pt-BR:
+  activerecord:
+    models: 
+      one: Receita favorita
+      other: Receitas favoritas
+    attributes:
+      favorite_recipe:
+        recipe_list_id: Lista de receitas
+  favorite_recipe:
+    create:
+      success:  'A receita foi adicionada com sucesso!'
+      error:  'Não foi possível salvar receita na lista'
